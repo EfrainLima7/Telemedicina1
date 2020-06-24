@@ -1,0 +1,195 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pricipal.master.cs" Inherits="telemedicina.pricipal" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">    
+    <title>Telemedicina</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="data/plugins/slick/slick.css" />
+    <link href="data/plugins/slick/slick.css" rel="stylesheet" />
+    <link rel="stylesheet" href="data/plugins/slick/slick-theme.css" />
+    <!-- FancyBox -->
+    <link rel="stylesheet" href="data/plugins/fancybox/jquery.fancybox.min.css" />
+    <!-- Stylesheets -->
+    <link href="data/css/style.css" rel="stylesheet" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="data/images/favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="data/images/favicon.ico" type="image/x-icon" />
+</head>
+<body>
+    <div class="page-wrapper">
+        <!--Header Upper-->
+        <section class="header-uper">
+            <div class="container clearfix">
+                <%--<div class="logo">
+                    <figure>
+                        <a href="index.aspx">
+                            <img src="images/logo.png" alt="" width="130" />
+                        </a>
+                    </figure>
+                </div>--%>
+                <div class="right-side">
+                    <ul class="contact-info">
+                        <li class="item">
+                            <div class="icon-box">
+                                <i class="fa fa-hospital-o"></i>
+                            </div>
+                            <strong>Horario de Atención</strong>
+                            <br />
+                            <a href="admin/login.aspx">
+                                <span>Lunes a Sábado - 8am to 10pm</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <div class="icon-box">
+                                <i class="fa fa-envelope-o"></i>
+                            </div>
+                            <strong>Email</strong>
+                            <br />
+                            <a href="contact.aspx">
+                                <span>info@Telemedicina.com</span>
+                            </a>
+                        </li>
+                        <li class="item">
+                            <div class="icon-box">
+                                <i class="fa fa-phone"></i>
+                            </div>
+                            <strong>Llama Ahora</strong>
+                            <br />
+                            <span>+ (067) - 13 - 679345</span>
+                        </li>
+                    </ul>
+                    <div class="link-btn">
+                        <a href="/admin/login.aspx" class="btn-style-one">admin</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Header Upper-->
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+        <!--footer-main-->
+        <footer class="footer-main">
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="about-widget">
+                                <div class="footer-logo">
+                                    <figure>
+                                        <a href="index.aspx">
+                                            <%--<img src="images/logo-2.png" alt="">--%>
+                                        </a>
+                                    </figure>
+                                </div>
+                                <ul class="location-link">
+                                    <li class="item">
+                                        <i class="fa fa-map-marker"></i>
+                                        <p>Huancavelica,N° 342 Santa Rosa, Perú</p>
+                                    </li>
+                                    <li class="item">
+                                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                        <a href="#">
+                                            <p>Support@Telemedicina.com</p>
+                                        </a>
+                                    </li>
+                                    <li class="item">
+                                        <i class="fa fa-phone" aria-hidden="true"></i>
+                                        <p>(345) +01 018373</p>
+                                    </li>
+                                </ul>
+                                <ul class="list-inline social-icons">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-vimeo"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <h6>Servicios</h6>
+                            <ul class="menu-link">
+
+                                <li>
+                                    <a href="#">
+                                        <i class="fa fa-angle-right" aria-hidden="true"></i>Consulta Telemedica
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-6 col-xs-12">
+                            <div class="social-links">
+                                <h6>Recientes Publicaciones</h6>
+                                <ul>
+                                    <li class="item">
+                                        <div class="media">
+                                            <div class="media-left">
+                                                <a href="#">
+                                                    <img class="media-object" src="images/blog/post-thumb-small.jpg" alt="post-thumb" />
+                                                </a>
+                                            </div>
+                                            <div class="media-body">
+                                                <h4 class="media-heading"><a href="#">Atencion</a></h4>
+                                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, dolorem.</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container clearfix">
+                    <div class="copyright-text">
+                        <p>
+                            &copy; Copyright 2020. All Rights Reserved by
+                            <a href="index.aspx">Telemedicina</a>
+                        </p>
+                    </div>
+                    <ul class="footer-bottom-link">
+                        <li>
+                            <a href="index.aspx">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="about.aspx">About</a>
+                        </li>
+                        <li>
+                            <a href="contact.aspx">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!--End footer-main-->
+    </div>
+    <!--End pagewrapper-->
+    <!--Scroll to top-->
+    <div class="scroll-to-top scroll-to-target" data-target=".header-top">
+        <span class="icon fa fa-angle-up"></span>
+    </div>
+
+    <script src="data/plugins/jquery.js"></script>
+    <script src="data/plugins/bootstrap.min.js"></script>
+    <script src="data/plugins/bootstrap-select.min.js"></script>
+    <!-- Slick Slider -->
+    <script src="data/plugins/slick/slick.min.js"></script>
+    <!-- FancyBox -->
+    <script src="data/plugins/fancybox/jquery.fancybox.min.js"></script>
+
+    <script src="data/plugins/validate.js"></script>
+    <script src="data/plugins/wow.js"></script>
+    <script src="data/plugins/jquery-ui.js"></script>
+    <script src="data/plugins/timePicker.js"></script>
+    <script src="data/js/script.js"></script>
+</body>
+</html>
