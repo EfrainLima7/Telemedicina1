@@ -24,7 +24,7 @@
                                         <a href="Agregar_Horarios.aspx" data-toggle="tab">Reg. Horarios</a>
                                     </li>
                                     <li role="presentation">
-                                        <a href="#x-ray" data-toggle="tab">New</a>
+                                        <a href="Historial.aspx" >Reg. Historial C.</a>
                                     </li>
                                     <li role="presentation">
                                         <a href="#diagnostic" data-toggle="tab">New</a>
